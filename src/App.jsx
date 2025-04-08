@@ -218,7 +218,7 @@ function App() {
                   </h3>
                   <div className="flex items-baseline">
                     <span className="text-2xl font-bold text-white">
-                      ₦{plan.price.toLocaleString()}
+                      ₦{plan.price}
                     </span>
                     <span className="ml-2 text-sm text-gray-300">
                       / {plan.duration}
@@ -240,20 +240,21 @@ function App() {
       {/* Course Details Modal */}
       {showDetailsModal && currentCourse && (
         <div className="fixed inset-0 z-10 overflow-y-auto">
-          <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+          <div className="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             {/* Background overlay */}
             <div
               className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
               onClick={handleCloseDetails}
             ></div>
             {/* Modal panel */}
-            <div className="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+            <div className="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:rounded-lg">
               <div className="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
                 <div className="sm:flex sm:items-start">
                   <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
+                    {/* Close Button */}
                     <button
                       type="button"
-                      className="absolute top-4 right-4 text-gray-400 hover:text-gray-500"
+                      className="absolute top-4 right-4 text-gray-400 hover:text-gray-500 focus:outline-none"
                       onClick={handleCloseDetails}
                     >
                       <svg
@@ -270,12 +271,14 @@ function App() {
                         />
                       </svg>
                     </button>
+                    {/* Course Title */}
                     <h3 className="text-2xl font-bold text-gray-900 mb-6">
                       {currentCourse.name}
                     </h3>
+                    {/* Responsive Grid Layout */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       {/* Course Image */}
-                      <div className="relative h-64">
+                      <div className="relative h-64 md:h-auto">
                         <img
                           src={currentCourse.image}
                           alt={currentCourse.name}
@@ -300,7 +303,7 @@ function App() {
                             <div className="flex justify-between text-gray-600">
                               <span>Price:</span>
                               <span className="font-medium text-blue-600">
-                                ₦{currentCourse.price.toLocaleString()}
+                                ₦{currentCourse.price}
                               </span>
                             </div>
                             <div className="flex justify-between text-gray-600">
@@ -328,6 +331,15 @@ function App() {
                               </li>
                             ))}
                           </ul>
+                        </div>
+                        {/* Mobile-Friendly Button */}
+                        <div>
+                          <button
+                            onClick={handleCloseDetails}
+                            className="w-full px-4 py-3 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+                          >
+                            Close
+                          </button>
                         </div>
                       </div>
                     </div>
