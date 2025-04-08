@@ -218,7 +218,7 @@ function App() {
                   </h3>
                   <div className="flex items-baseline">
                     <span className="text-2xl font-bold text-white">
-                      ₦{plan.price}
+                      ₦{plan.price.toLocaleString()}
                     </span>
                     <span className="ml-2 text-sm text-gray-300">
                       / {plan.duration}
@@ -303,7 +303,7 @@ function App() {
                             <div className="flex justify-between text-gray-600">
                               <span>Price:</span>
                               <span className="font-medium text-blue-600">
-                                ₦{currentCourse.price}
+                                ₦{currentCourse.price.toLocaleString()}
                               </span>
                             </div>
                             <div className="flex justify-between text-gray-600">
