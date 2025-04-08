@@ -216,14 +216,6 @@ function App() {
                   <h3 className="font-bold text-xl text-white mb-1">
                     {plan.name}
                   </h3>
-                  <div className="flex items-baseline">
-                    <span className="text-2xl font-bold text-white">
-                      ₦{plan.price.toLocaleString()}
-                    </span>
-                    <span className="ml-2 text-sm text-gray-300">
-                      / {plan.duration}
-                    </span>
-                  </div>
                   <p className="mt-1 text-sm text-gray-300">
                     Starts: {plan.startDate}
                   </p>
