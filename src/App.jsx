@@ -8,7 +8,8 @@ const pricingPlans = [
     price: 149500,
     duration: "10 Weeks",
     startDate: "January 29th, 2025",
-    image: "/product-design.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/rvqppfvqkd8dgpozqxsk",
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ const pricingPlans = [
     price: 170500,
     duration: "12 Weeks",
     startDate: "January 29th, 2025",
-    image: "/data-analytics.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/vmnxivzx6mnzwxvue56g",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const pricingPlans = [
     price: 199500,
     duration: "12 Weeks",
     startDate: "January 13th, 2025",
-    image: "/coding-v2.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/tgmxfrgxjbdtuajjtx1c",
   },
   {
     id: 4,
@@ -32,7 +35,8 @@ const pricingPlans = [
     price: 199500,
     duration: "14 Weeks",
     startDate: "January 13th, 2025",
-    image: "/coding-virtual.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/o3q3iifdmxtx2zfoanuh",
   },
   {
     id: 5,
@@ -40,7 +44,8 @@ const pricingPlans = [
     price: 199500,
     duration: "16 Weeks",
     startDate: "January 17th, 2025",
-    image: "/pd-4.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/cjoxs9niewvi9kmux6jb",
   },
   {
     id: 6,
@@ -48,7 +53,8 @@ const pricingPlans = [
     price: 149500,
     duration: "10 Weeks",
     startDate: "January 20th, 2025",
-    image: "/product-des.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/rsqkpsqrgdtiylhfzcmg",
   },
   {
     id: 7,
@@ -56,7 +62,8 @@ const pricingPlans = [
     price: 399500,
     duration: "24 Weeks",
     startDate: "January 13th, 2025",
-    image: "/coding-v2.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/g7roml50xxrfzroej6fz",
   },
   {
     id: 8,
@@ -64,7 +71,8 @@ const pricingPlans = [
     price: 399500,
     duration: "28 Weeks",
     startDate: "January 17th, 2025",
-    image: "/malhub-python-coding.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/owupbnootbqz3dfvvmcu",
   },
   {
     id: 9,
@@ -72,7 +80,8 @@ const pricingPlans = [
     price: 250000,
     duration: "20 Weeks",
     startDate: "January 20th, 2025",
-    image: "/data-analytics1.png",
+    image:
+      "https://res.cloudinary.com/dma1c8i6n/image/upload/f_auto,q_auto/mdssvyvdtudurcy3ptfm",
   },
 ];
 
