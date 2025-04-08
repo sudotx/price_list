@@ -8,7 +8,7 @@ const pricingPlans = [
     price: 149500,
     duration: "10 Weeks",
     startDate: "January 29th, 2025",
-    image: "/api/placeholder/800/600", // Using placeholder images
+    image: "/product-design.png",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const pricingPlans = [
     price: 170500,
     duration: "12 Weeks",
     startDate: "January 29th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/data-analytics.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const pricingPlans = [
     price: 199500,
     duration: "12 Weeks",
     startDate: "January 13th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/coding-v2.png",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const pricingPlans = [
     price: 199500,
     duration: "14 Weeks",
     startDate: "January 13th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/coding-virtual.png",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const pricingPlans = [
     price: 199500,
     duration: "16 Weeks",
     startDate: "January 17th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/pd-4.png",
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const pricingPlans = [
     price: 149500,
     duration: "10 Weeks",
     startDate: "January 20th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/product-des.png",
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const pricingPlans = [
     price: 399500,
     duration: "24 Weeks",
     startDate: "January 13th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/coding-v2.png",
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const pricingPlans = [
     price: 399500,
     duration: "28 Weeks",
     startDate: "January 17th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/malhub-python-coding.png",
   },
   {
     id: 9,
@@ -72,7 +72,7 @@ const pricingPlans = [
     price: 250000,
     duration: "20 Weeks",
     startDate: "January 20th, 2025",
-    image: "/api/placeholder/800/600",
+    image: "/data-analytics1.png",
   },
 ];
 
